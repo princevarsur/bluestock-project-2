@@ -59,75 +59,7 @@ Mutual Fund Project/
 │   └── Presentation.pptx
 └── README.md
 
-````
 
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/bluestock-mf-analytics.git
-cd bluestock-mf-analytics
-````
-
----
-
-### 2. Create virtual environment (optional)
-
-```bash
-python -m venv venv
-```
-
-Activate:
-
-**Windows:**
-
-```bash
-venv\Scripts\activate
-```
-
-**Mac/Linux:**
-
-```bash
-source venv/bin/activate
-```
-
----
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Required libraries:
-
-* pandas
-* numpy
-* requests
-* matplotlib
-* seaborn
-* plotly
-
----
-
-##  How to Run the Project
-
-### Run the full pipeline
-
-```bash
-python run_pipeline.py
-```
-
-This will:
-
-* Fetch live NAV data from API
-* Save raw datasets into `/data/raw`
-* Run dataset profiling
-* Generate mutual fund recommendations
-
----
 
 ##  ETL Pipeline (Data Ingestion)
 
